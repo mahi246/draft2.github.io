@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <style>
+ body {
+  margin: 0;
+  font-family: sans-serif;
+   font-weight: bold;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #4D6D9A;
+  font-family:  sans-serif;
+  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  margin-left:75px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+   color:#5F6366;
+   background-color: #ffffff;
+}
+     
+       .tbond{
+         width:1400px;
+         height: 200px;
+         background-color: #1F75D2;
+         align-items:center;
+         display:flex;
+         justify-content:center;
+         font-size:50px;
+         font-family:sans-serif;
+         font-weight:800px;
+         padding: 20px;
+         background-position: center; 
+         background-image: url(https://images.unsplash.com/photo-1523292562811-8fa7962a78c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+       }
+       .tbond:hover{
+           font-size:0; }
+       .tbond:hover:after{
+           content:attr(data-hover);
+           font-size: 30px;
+           line-height: 28px;
+           font-weight:0px;
+           text-align: center;}
+      .mbond{
+         width:1400px;
+         height: 200px;
+         background-color: #FFFFFF;
+         align-items:center;
+         display:flex;
+         justify-content:center;
+         font-size:50px;
+         font-family:sans-serif;
+         font-weight:800px;
+         padding: 20px;
+         background-position: center;
+         background-image: url(https://images.unsplash.com/photo-1525727438854-5926b7580b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2200&q=80);
+       }
+       .mbond:hover{
+           font-size:0; }
+       .mbond:hover:after{
+           content:attr(data2-hover);
+           font-size: 30px;
+           line-height: 28px;
+           font-weight:0px;
+           text-align: center;
+           }
+       .cbond{
+         width:1400px;
+         height: 200px;
+         background-color: #1F75D2;
+         align-items:center;
+         display:flex;
+         justify-content:center;
+         font-size:50px;
+         font-family:sans-serif;
+         font-weight:800px;
+         padding: 20px;
+         background-position: center; 
+         background-image: url(https://images.unsplash.com/photo-1589967606213-85e5f7eeca13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80);}
+       .cbond:hover{
+           font-size:0; }
+       .cbond:hover:after{
+           content:attr(data3-hover);
+           font-size: 30px;
+           line-height: 28px;
+           font-weight:0px;
+           text-align: center;}
+      #bondheader {
+      color:#4D6D9A;
+      font-family: sans-serif; 
+      font-size:75px;
+      font-weight:bold;
+      margin-left:600px;
+      z-index:1;
+      margin-top:50px;
+      position: absolute;
+     background-color:#D8D8D8;
+    }
+       .container {
+  position: relative;
+  text-align: center; }
+      
+</style>
+</head>
+    
+   <div class="topnav">
+  <a id="navigation-bar3">
+      <a href="home.html"> Home </a>
+      &nbsp;
+  <a href="stocks.html">Stocks</a>
+     &nbsp;
+  <a href="mutualfunds.html">Mutual Funds</a>
+     &nbsp;
+  <a href="bonds.html">Bonds</a>
+     &nbsp;
+  <a href="realestate.html">Real Estate</a>
+     &nbsp;
+  <a href="contactus.html">Contact Us</a>
+      </a>
+    </div>
+    <div class="bheader">
+       <h1 id="bondheader"><a id="bonds"> Bonds</a> </h1>
+       <div class="container">
+       <img style="width: 1440px; height: 250px;z-index:-1;opacity:95%;" 
+            src="https://images.unsplash.com/photo-1515606378517-3451a4fa2e12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2200&q=80">
+       </div>
+    </div>
+  
+     <h2 style="text-size: 55px;margin-left:30px;">What are bonds?</h2>
+   
+    <p style="margin-left: 30px; line-height:1.8;"> 
+        A bond is a debt security. When a bond is issued to you, it means you are lending <br>
+        money to an institutions or company. You are lending them money till a certain date.<br>
+        Therefore, you have to hold a bond until a certain period of time for it to “mature”. <br>
+        Until the date issued, you will be paid interest and on the date you will receive the <br>
+        amount you first issued. There are a few types of bonds: treasury, municipal and corporate. 
+   </p>
+    <h3 style="background-color: #E6D6FF;text-align:center;font-size:55px;">Types of Bonds</h3>
+
+    <div class="tbond" data-hover=
+        "Treasury bonds are issued for the federal government
+        by the U.S.Department of the Treasury. These bonds
+        are particularly safer than others because they are 
+        backed by the US government.">Treasury Bonds</div>
+        <div class="mbond" data2-hover=
+        " Municipal bonds are issued by states, cities or counties. When a 
+        municipal bond is issued, the money is usually used to build schools, 
+        government building,highways etc. Many holders of municipal bonds can 
+        receive tax benefits on the bond, however it depends on the type of 
+        municipal bond you buy. 
+        ">Municipal Bonds</div>
+         <div class="cbond" data3-hover=
+        " When you buy a corporate bond, you are lending money to a company that 
+        issued the bond. You get paid with interest until the maturity date of 
+        the bond. Once the bond matures, the company legally has to pay the 
+        principal(how much money you lent to the company)."
+        >Corporate Bonds</div> 
+    <h5 style="background-color:#EDB5BF;text-align:center;font-size:35px;"> Investing using bonds </h5>
+    <p style="text-align:right;font-size:25px;line-height:1.8;margin-right:30px;">
+        Bonds can be bought through a broker. However, the US treasury bonds are sold by the <br>
+        federal government. US treasury bonds can be bought from a bank or a broker with a fee. <br>
+        Bonds can also be bought through mutual funds. This allows an investor to diversify their <br>
+        investments. Bond funds also give monthly dividends and are liquid, meaning you can <br>
+        buy and sell bond funds anyday. 
+ </p>
+    <a href="#navigation-bar3"> Return to top </a> 
+    <footer style="background-color: #4D6D9A; color:#FFFFFF; padding-left:60px; line-height: 1.8;">
+      Sources:
+        <p> <q> Bonds.</q> Bonds | Investor.gov, United States Government, <br>
+            www.investor.gov/introduction-investing/investing-basics/investment-products/bonds <br>
+            -or-fixed-income-products/bonds. </p>
+        
+        <p> <q> How to Buy Bonds.</q> CNNMoney, Cable News Network, 28 May 2015, <br>
+            https://money.cnn.com/pf/money-essentials-buy-bonds/index.html </p>
+
+        <p> Kennon, Joshua. <q>The Basics of Investing.</q>The Balance, The Balance, 10 Oct. 2019, <br>
+            www.thebalance.com/investing-basics-6-different-types-of-investments-4056847. </p>
+
+    </footer>
+   
+  </body>
+  
+  
+</html>
