@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mutual Funds</title>
+     <style>
+ body {
+  margin: 0;
+  font-family: sans-serif;
+   font-weight: bold;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #4D6D9A;
+  font-family: sans-serif;
+  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  margin-left:75px;
+  text-decoration: none;
+  font-size: 20px;
+}
+ .topnav a:hover {
+   color:#5F6366;
+   background-color: #ffffff;
+}
+         img {
+  width: 25%;
+  height: 30%;
+  border: 5px solid #000000;
+  position: absolute;
+  left:950px; 
+  top: 200px;
+             
+             
+}
+        #mffirst{
+      margin-left: 20px;
+      margin-top:50px;
+      line-height: 1.8;
+      font-family: sans-serif; 
+            font-size: 20px; }
+         #mutualfunds{
+     text-align: center; 
+     font-size: 75px;
+     font-family: sans-serif;
+     color: #4D6D9A;
+             font-weight: bold; }
+         #mfhow {
+             text-align:right;
+             margin-right:30px;
+             line-height: 1.8;
+             font-family: sans-serif; 
+             font-size: 20px; }
+</style>
+    </head>
+    <body>
+      <div class="topnav">
+  <a id="navigation-bar2">
+      <a href="home.html"> Home </a>
+      &nbsp;
+  <a href="stocks.html">Stocks</a>
+     &nbsp;
+  <a href="mutualfunds.html">Mutual Funds</a>
+     &nbsp;
+  <a href="bonds.html">Bonds</a>
+     &nbsp;
+  <a href="realestate.html">Real Estate</a>
+     &nbsp;
+  <a href="contactus.html">Contact Us</a>
+      </a>
+   </div>
+        <h1 style="text-align: center;"><a id="mutualfunds">Mutual Funds</a></h1>
+        <p id="mffirst">
+            Mutual funds are a wise investment, especially for investors who are just starting out. <br>
+            They allow investors to diversify their portfolio and invest in multiple companies at a <br>
+            time. A mutual fund is when a company pools money from investors and then invests into <br>
+            securities(stocks, bonds etc). As the value of the fund increases, investors receive dividend <br>
+            payments and capital gain distributions. Capital gain occurs when securities are sold in a <br>
+            profit, and then the profit is distributed to the investors based on the value of their <br>
+            investment. However, you may also lose money if the value decreases. The past performance of <br>
+            a fund helps dictate how stable the investment is but it will not determine your profit or loss.
+ </p>
+        <img src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1895&q=80" 
+             alt="confused person, choosing between stocks,mutualfunds and real estate">
+        <h2 style="background-color: #E6D6FF; font-size: 45px; margin-right: 130px;text-align:right;"> Start Investing </h2>
+        <p id="mfhow"> 
+            To buy shares of a mutual fund, you can buy it straight from the fund or through a broker. When an investor buys a <br>
+            share from a mutual fund, they pay the  per share net value and any other fees that occur during the purchase. If you <br>
+            do not like the fund that you bought shares from, you can sell the shares back to the fund whenever you want. Before <br>
+            buying a fund, make sure to look at the annual return and operating expenses of the fund.  </p>
+        <h3 style="background-color: #EDB5BF; font-size: 45px; margin-left: 130px;"> Things to Consider </h3>
+            <ul style="line-height: 1.8; font-size:20px;margin-left:30px">
+                <li>There are various fees that apply in transactions using mutual funds,<br> which vary on what company/broker you are using. </li>
+                <li> Annual return and operating expenses will effect your profit in the long run. <br>Remember to do your research before buying a share in a fund! </li>
+                <li>Carefully read the prospectus, which contains the expenses, charges etc.</li>
+        </ul>
+          <a href="#navigation-bar2"> Return to top </a>
+        <footer style="background-color:#4D6D9A;color:#FFFFFF;margin-bottom:0;padding-left:60px; line-height: 1.8;">
+           Sources:
+              <p> Kennon, Joshua. <q>The Basics of Investing.</q> The Balance, The Balance, 10 Oct. 2019, <br>
+              www.thebalance.com/investing-basics-6-different-types-of-investments-4056847. </p>
+          <p> <q>Mutual Funds.</q> Mutual Funds | Investor.gov, United States Government,<br>
+            www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-1. </p>
+          
+
+
+                </footer>
+      
+        
+    </body>
+</html>
