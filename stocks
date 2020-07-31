@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stocks</title>
+       <style>
+ body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #4D6D9A;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  margin-left:75px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+   color:#5F6366;
+   background-color: #ffffff;
+}
+ #stocks {
+     text-align: center; 
+     font-size: 75px;
+     font-family: Georgia, Helvetic, sans-serif;
+     color: #4D6D9A;
+     font-weight: bold;
+     
+           }
+
+  #stocklist {
+      font-size: 20px;
+      font-family: Georgia, Helvetica, sans-serif;
+      margin-left: 20px; }
+      
+
+</style>
+    </head>
+    <body>
+       
+          <div class="topnav">
+  <a id="navigation-bar1">
+      <a href="home.html"> Home </a>
+      &nbsp;
+  <a href="stocks.html">Stocks</a>
+     &nbsp;
+  <a href="mutualfunds.html">Mutual Funds</a>
+     &nbsp;
+  <a href="bonds.html">Bonds</a>
+     &nbsp;
+  <a href="realestate.html">Real Estate</a>
+     &nbsp;
+  <a href="contactus.html">Contact Us</a>
+      </a>
+   </div>
+        <h1 style="text-align: center;"><a id="stocks">Stocks</a></h1>
+        <h2 style="text-align: left; font-weight: bold;margin-left:30px; font-size: 30px;"> What are stocks? </h2>
+        <p style="margin-left: 25px; font-size: 20px; line-height: 1.6;"> 
+            A stock is defined as a share of ownership in a specific company.The benefits of investing in stocks include: capital appreciation <br>
+            (when stocks prices rise), dividend payments(when companies distribute earnings to stockholders), and stocks also give the investor an <br>
+            influence in voting for changes in the company. However, a downside is that there is no guarantee that the stocks you invest in will <br>
+            increase in price, meaning you may lose money. Likewise, stocks tend to be a long-term investment and therefore you may not receive <br>
+            a significant return on your investment until a long period of time. However, whether or not you make a profit depends on what price you <br>
+            buy the stocks at and what price you sell them. 
+</p>
+        <img style="width:1440px; height: 900px;"src="https://images.unsplash.com/photo-1534469650761-fce6cc26ac0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyNjA3NH0&auto=format&fit=crop&w=2102&q=80">
+      
+            <h3 style="text-align: center; font-size: 30px; font-family: Georgia, Helvetica, Sans-serif; background-color:#EDB5BF;"> Types of Stocks </h3>
+          <div id="stocklist">              
+<table>
+  <tr>
+    <th>Growth Stocks</th>
+    <th>Income Stocks</th>    
+  </tr>
+  <tr>
+    <td style="line-height: 1.6;">Growth stocks are usually higher earning than other stocks. 
+They are commonly bought in the hope of capital appreciation and rarely earn dividends.</td>
+    <td style="line-height: 1.6;">Income stocks have the majority of their earnings through dividends. 
+This type of stock provides investors with a consistent stream of income and is a company that is in mostly stable industries.
+Some examples include, technology, utility and finance.</td>   
+  </tr>
+  <tr>
+    <td style="text-align:center;">Value Stocks</td>
+    <td style="text-align:center;">Blue-Chip Stocks</td> 
+  </tr>
+  <tr>
+    <td style="line-height: 1.6;">Value stocks are regarded as being under-valued but those who invest in them see potential. 
+They have a low ratio of price to earning. 
+These stocks are cheaper to buy but have a high PE(potential earning). 
+Investors buy these stocks in the hope that the company will grow or the industry value will increase.</td>
+    <td style="line-height: 1.6;">Blue-chip stocks are categorized as stocks in large and stable companies, however they do not grow much.
+Though blue-chip stocks are expensive, they tend to be low-risk and usually pay dividends.
+</td>   
+  </tr>   
+  </tr>
+</table>
+        </div>
+        <h4 style="text-align: center;font-size: 30px; font-family: Georgia, Helvetica, Sans-serif; background-color: #99CED3;"> Start Investing </h4>
+        
+        <p style="margin-left: 25px; line-height: 1.6; text-align: center;"> 
+            Before starting to invest in stocks, it is important to research the up and downs of the stock market.<br> 
+            Consider what companies may do well in the future, and remember to diversify your portfolio with stocks <br>
+            from different industries. Diversifying your portfolio will help lower the risk of losing your investments. <br>
+            Then open an investing account, which can be done through many online services. As a beginner, start investing <br>
+            with a little money and as you begin to get more comfortable start investing more money.  </p>
+       <a href="#navigation-bar1"> Return to top </a>
+    <footer style="background-color: #4D6D9A; color:#FFFFFF; padding-left:60px; line-height: 1.8;">
+        Sources: <br>
+         <p>  David, Ben. <q>7 Categories to Classify Stocks.</q> Finance, Zacks, 31 July 2019, <br>
+              https://finance.zacks.com/7-categories-classify-stocks-4029.html <br> </p>
+        
+         <p>  Kennon, Joshua. <q>The Basics of Investing.</q>The Balance, The Balance, 10 Oct. 2019,<br>
+          www.thebalance.com/investing-basics-6-different-types-of-investments-4056847. <br> </p>
+        
+         <p>   Rose, Jeff. <q>The 7 Best Investments To Make In 2020.</q>Forbes, Forbes Magazine, 4 Feb. 2020,<br>
+          www.forbes.com/sites/jrose/2020/02/03/the-7-best-investments-to-make-in-2020/#7bfe1fc6a5cd. <br> </p>
+
+         <p>  <q>Stocks.</q>Stocks | Investor.gov, United States Government,<br>
+        www.investor.gov/introduction-investing/investing-basics/investment-products/stocks,<br> </p>
+   
+        
+
+       
+     </footer>
+       
+    </body>
+      
+</html>
