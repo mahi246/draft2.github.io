@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Real Estate</title>
+     <style>
+ body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #4D6D9A;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  margin-left:75px;
+  text-decoration: none;
+  font-size: 20px;
+}
+ .topnav a:hover {
+ color:#5F6366;
+   background-color: #ffffff;
+}
+           
+   #realestate {
+     text-align: center; 
+     font-size: 75px;
+     font-family: Georgia, Helvetic, sans-serif;
+     color: #4D6D9A;
+     font-weight: bold; }
+         
+       #relist {
+           text-align: center;
+           font-size:25px;
+           margin-left: 370px;
+           color: #000000;
+           text-decoration:none;
+           }
+       #relist a{
+           color: #000000; }
+       #relist a:hover {
+           color:#4700b3 }
+      
+     .container {
+  position: relative;
+  text-align: center; }
+         #repara{
+      color:#000000;
+      font-family: sans-serif; 
+      font-size:35px;
+      text-align:center;
+      z-index:1;
+      margin-top:50px;
+      position: absolute;
+      background-color:#D1E6EC;
+             opacity:0.6;
+    }
+    
+</style>
+    </head>
+    <body>
+         <div class="topnav">
+  <a id="navigation-bar4">
+  <a href="home.html"> Home </a>
+      &nbsp;
+  <a href="stocks.html">Stocks</a>
+     &nbsp;
+  <a href="mutualfunds.html">Mutual Funds</a>
+     &nbsp;
+  <a href="bonds.html">Bonds</a>
+     &nbsp;
+  <a href="realestate.html">Real Estate</a>
+     &nbsp;
+  <a href="contactus.html">Contact Us</a>
+      </a>
+   </div>
+        <h1 style="text-align: center;"><a id="realestate">Real Estate</a></h1>
+         <p id="repara">When many think of real estate, they think of buying vacation homes, plots of land etc. <br>
+           However, real estate investing has much more to it. As a beginner, it is important to <br>
+            understand the different aspects of investing in real estate, and also understanding <br>
+            what is best for you and your portfolio.  </p>
+          <div class="container">
+        <img style="width: 1440px; height: 315px;z-index:-1;"src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=954&q=80">
+        </div>
+         <h2 style="font-size: 45px;text-align: center;">Types of Real Estate Investments</h2>
+  
+      <ul id="relist" style="text-align:center;text-size:25px;display:inline;"> 
+          <li style="display:inline;"><a href="#rentalproperties">Rental Properties</a></li>
+          &nbsp;
+          <li style="display:inline;"><a href="#flippinghomes">"Flipping" Homes</a></li>
+          &nbsp;
+          <li style="display:inline;"><a href="#REIG">REIGs</a></li>
+          &nbsp;
+          <li style="display:inline;"><a href="#REIT">REITs</a></li>
+        </ul>
+        <h3 id="rentalproperties"style="font-size:35px;background-color:#99CED3;margin-right:150px;">Rental Properties</h3>
+        <p style="font-size:25px;margin-left:30px;"> 
+            Rental properties are a good way to start investing in real estate. To begin, you will <br>
+            need to start off by buying a property and renovate it if necessary. Thus, having a <br>
+            rental property means you will need to start with a hefty amount of money to cover <br>
+            maintenance and times your property will be vacant. However, if marketed well, landlords <br>
+            can receive a regular stream of income. When renting out property it is important to <br>
+            cover everything in the contract that will protect your property from damage done by renters.  </p>
+        <h4 id="flippinghomes"style="font-size:35px;background-color:#EDB5BF;margin-left:150px;">"Flipping" homes</h4>
+        <p style="font-size:25px;margin-right:30px; text-align:right;"> 
+            Flipping homes may not be for everyone because it is important to have knowledge on <br>
+            valuation of homes and renovation. Likewise, you would need marketing knowledge and <br>
+            time to oversee renovations. Just like rental properties, flipping homes requires a <br>
+            substantial amount of money to buy and renovate the home. Profit occurs when you sell<br>
+            the home for more than  the amount you bought it, plus the cost to renovate. When <br>
+            flipping a home, the housing marketplays a big role in the profit you will make.  </p>
+        <h5 id="REIG"style="font-size:35px;background-color:#99CED3;margin-right:150px;">Real Estate Investment Groups(REIGs)</h5>
+        <p style="font-size:25px;margin-left:30px;">
+            REIGs are similar to mutual funds, but for real estate. Typically, a company would buy or <br>
+            build, for example, a building and then investors would buy parts of it. The investors then <br>
+            own parts of the building,however,it would be managed by the company that built or bought <br>
+            the building.The company would help advertise and interview tenants for the building.</p>
+        <h6 id="REIT"style="font-size:35px;background-color:#EDB5BF;margin-left:150px;">Real Estate Investment Trusts(REITs)</h6>
+            <p style="font-size:25px;margin-right:30px; text-align:right;">
+                REITs help investors make an income from more commercial real estate properties. <br>
+                Examples of such properties include hotels, apartment buildings and shopping malls. <br>
+                REITs companies tend to develop properties specifically to add to their investment <br>
+                portfolios. Quite a few REITs can be purchased through major stock exchanges.They <br>
+                can also be purchased through a broker. The REITs companies give Investors profit <br>
+                from the income produced from the real estate, based on how many shares they have. </p>
+<a href="#navigation-bar4"> Return to top </a>
+           <footer style="background-color: #4D6D9A; color:#FFFFFF; padding-left:60px; line-height: 1.8;margin-bottom: 0;">
+            Sources: <br>
+               <p> Beattie, Andrew. <q>4 Simple Ways to Invest in Real Estate.</q> Investopedia, Investopedia, 6 Apr. 2020,<br>
+                   www.investopedia.com/investing/simple-ways-invest-real-estate/. </p>
+               
+               <p> Kennon, Joshua. <q>The Basics of Investing.</q> The Balance, The Balance, 10 Oct. 2019, <br>
+                   www.thebalance.com/investing-basics-6-different-types-of-investments-4056847. </p>
+               
+               <p> <q>Real Estate Investment Trusts (REITs).</q> Real Estate Investment Trusts (REITs) | Investor.gov, United States Government,<br>
+                   www.investor.gov/introduction-investing/investing-basics/investment-products/real-estate-investment-trusts-reits. </p>
+                   
+          
+                </footer>
+    </body>
+</html>
